@@ -3,6 +3,21 @@ main = "src/index.js"
 compatibility_date = "2024-01-01"
 # node_compat = true
 workers_dev = true
+[[routes]]
+pattern = "gcp.putrir.my.id"
+custom_domain = true
+[[routes]]
+pattern = "shopee.co.id.gcp.putrir.my.id"
+custom_domain = true
+[[routes]]
+pattern = "cf.shopee.co.id.gcp.putrir.my.id"
+custom_domain = true
+[[routes]]
+pattern = "support.zoom.us.kidskyzer.filegear-sg.me"
+custom_domain = true
+[[routes]]
+pattern = "cvs-deo.shopeemobile.com.kidskyzer.filegear-sg.me"
+custom_domain = true
 
 [vars]
 # PROXYIP = "211.230.110.231:50008"
